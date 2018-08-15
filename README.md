@@ -1,3 +1,5 @@
+### Forked from [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
+
 # go-cache
 
 go-cache is an in-memory key:value store/cache similar to memcached that is
@@ -15,14 +17,14 @@ one) to recover from downtime quickly. (See the docs for `NewFrom()` for caveats
 
 ### Installation
 
-`go get github.com/patrickmn/go-cache`
+`go get github.com/virtmon/go-cache`
 
 ### Usage
 
 ```go
 import (
 	"fmt"
-	"github.com/patrickmn/go-cache"
+	"github.com/virtmon/go-cache"
 	"time"
 )
 
@@ -80,4 +82,4 @@ func main() {
 
 ### Reference
 
-`godoc` or [http://godoc.org/github.com/patrickmn/go-cache](http://godoc.org/github.com/patrickmn/go-cache)
+`godoc` or [http://godoc.org/github.com/virtmon/go-cache](http://godoc.org/github.com/virtmon/go-cache)
